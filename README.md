@@ -35,6 +35,6 @@ The designs were created to the following widths:
 ## Typography
 
 ### Body Copy
--Font-family: 'Kumbh Sans', sans-serif;
+- Font-family: 'Kumbh Sans', sans-serif;
 - Font size (paragraph): 16px
 
