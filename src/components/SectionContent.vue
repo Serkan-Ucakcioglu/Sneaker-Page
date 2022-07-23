@@ -1,6 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
+  <!-- Section -->
   <section>
     <div class="container">
       <!-- content -->
