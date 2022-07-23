@@ -168,10 +168,10 @@ section {
     flex-direction: column;
     align-items: center !important;
     justify-content: center !important;
-    .img{
-        width: 100% !important;
-        margin-top: 10px !important;
-        height: 200px !important;
+    .img {
+      width: 100% !important;
+      margin-top: 10px !important;
+      height: 200px !important;
     }
     .head-titles {
       h3,
@@ -180,20 +180,19 @@ section {
         text-align: center;
       }
     }
-    .description{
-width: 90% !important;
-justify-content: center  !important;
-align-items: center !important;
-margin: 0px auto;
-.basket{
-    width: 100%;
- flex-direction: column;
- .counter{
-
-     width: 100% !important;
-    margin-bottom: 10px;
- }
-}
+    .description {
+      width: 90% !important;
+      justify-content: center !important;
+      align-items: center !important;
+      margin: 0px auto;
+      .basket {
+        width: 100%;
+        flex-direction: column;
+        .counter {
+          width: 100% !important;
+          margin-bottom: 10px;
+        }
+      }
     }
   }
 }
