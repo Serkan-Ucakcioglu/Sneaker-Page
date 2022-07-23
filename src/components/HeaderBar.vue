@@ -93,6 +93,7 @@ header {
       margin-left: 35px;
     }
   }
+  // hamburger btn
   .hamburger-btn {
     display: none;
     justify-content: flex-start;
@@ -102,6 +103,7 @@ header {
       display: flex;
     }
   }
+  // logo
   .logo {
     display: flex !important;
     align-items: center;
@@ -127,7 +129,7 @@ header {
     }
   }
 }
-
+// responsive
 @media only screen and (max-width: 900px) {
   .hamburger-btn {
     display: flex !important;
