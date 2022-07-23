@@ -132,11 +132,12 @@ header {
     width: 150px !important;
     flex-direction: column !important;
     align-items: flex-start !important;
-    height: 100vh !important;
+    height: 100% !important;
     background: white !important;
     border-right: 1px solid #f1f1f1;
     padding: 20px;
     box-sizing: border-box;
+    z-index: 10;
 
     a {
       margin-top: 15px !important;
