@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+//import
 import { ref } from "@vue/reactivity";
 
 let isShow = ref(false);
@@ -6,9 +7,11 @@ let isShow = ref(false);
 
 <template>
   <header>
+    <!-- Container -->
     <div class="container">
       <!-- responsive sidebar main -->
       <nav class="main" v-show="isShow == true">
+        <!-- Svg -->
         <svg
           @click="isShow = !isShow"
           class="close-menu"
@@ -73,6 +76,7 @@ let isShow = ref(false);
 <style scoped lang="scss">
 header {
   height: 100px;
+  // container
   .container {
     border-bottom: 1px solid #e8eef1;
     display: flex;
