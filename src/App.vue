@@ -13,8 +13,9 @@ import SectionContent from './components/SectionContent.vue';
 
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
 #app {
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Kumbh Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
