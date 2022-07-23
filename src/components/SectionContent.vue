@@ -164,7 +164,7 @@ section {
 }
 @media only screen and (max-width: 800px) {
   .content {
-    position: fixed;
+    position: sticky;
     flex-direction: column;
     align-items: center !important;
     justify-content: center !important;
