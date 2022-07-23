@@ -1,10 +1,13 @@
 <script lang="ts" setup>
+//import
 import HeaderBar from './components/HeaderBar.vue';
 import SectionContent from './components/SectionContent.vue';
 </script>
 <template>
+<!-- Components -->
   <HeaderBar msg="Welcome to Your Vue.js + TypeScript App"/>
   <SectionContent/>
+  <!-- Components -->
 </template>
 
 
