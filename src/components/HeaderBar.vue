@@ -81,6 +81,7 @@ header {
     border-bottom: 1px solid #e8eef1;
     display: flex;
   }
+  //mains
   .mains {
     display: flex;
     justify-content: flex-start;
