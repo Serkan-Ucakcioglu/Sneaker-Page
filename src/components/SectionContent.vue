@@ -65,8 +65,9 @@ section {
   .img {
     width: 450px;
     height: 450px;
+    z-index: 10;
     img {
-      width: 100%;
+      width: 90%;
       height: 100%;
       border-radius: 5px;
     }
@@ -163,15 +164,36 @@ section {
 }
 @media only screen and (max-width: 800px) {
   .content {
+    position: fixed;
     flex-direction: column;
-    align-items: flex-start !important;
+    align-items: center !important;
     justify-content: center !important;
+    .img{
+        width: 100% !important;
+        margin-top: 10px !important;
+        height: 200px !important;
+    }
     .head-titles {
       h3,
       h1,
       p {
         text-align: center;
       }
+    }
+    .description{
+width: 90% !important;
+justify-content: center  !important;
+align-items: center !important;
+margin: 0px auto;
+.basket{
+    width: 100%;
+ flex-direction: column;
+ .counter{
+
+     width: 100% !important;
+    margin-bottom: 10px;
+ }
+}
     }
   }
 }

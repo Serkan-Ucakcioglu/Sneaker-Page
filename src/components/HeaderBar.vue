@@ -72,7 +72,7 @@ let isShow = ref(false);
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 header {
-  min-height: 100px;
+  height: 100px;
   .container {
     border-bottom: 1px solid #e8eef1;
     display: flex;
@@ -132,10 +132,10 @@ header {
     width: 150px !important;
     flex-direction: column !important;
     align-items: flex-start !important;
-    height: 100% !important;
+    height: 100vh !important;
     background: white !important;
     border-right: 1px solid #f1f1f1;
-    padding: 20px;
+    padding: 0px 10px;
     box-sizing: border-box;
     z-index: 10;
 
@@ -143,6 +143,7 @@ header {
       margin-top: 15px !important;
       font-weight: bold;
       color: rgb(29, 32, 37) !important;
+      margin-right: 20px;
     }
     svg {
       margin-top: 15px;
