@@ -101,6 +101,7 @@ header {
     height: 100px;
     svg {
       display: flex;
+      cursor: pointer;
     }
   }
   // logo
