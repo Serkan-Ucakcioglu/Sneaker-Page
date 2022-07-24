@@ -109,6 +109,9 @@ header {
     align-items: center;
     justify-content: flex-start;
     height: 100px;
+    img{
+      margin-left: 15px !important;
+    }
   }
 
   .basket-user {
