@@ -71,6 +71,7 @@ section {
       width: 90%;
       height: 100%;
       border-radius: 5px;
+      object-fit: cover;
     }
   }
 
