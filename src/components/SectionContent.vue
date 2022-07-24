@@ -163,6 +163,7 @@ section {
     }
   }
 }
+// responsive
 @media only screen and (max-width: 800px) {
   .content {
     position: sticky;

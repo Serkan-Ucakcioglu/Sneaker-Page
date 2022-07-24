@@ -121,6 +121,7 @@ header {
       margin-right: 25px;
       cursor: pointer;
     }
+    //profil photo 
     .avatar {
       width: 50px;
       height: 50px;
