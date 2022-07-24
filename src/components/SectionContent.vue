@@ -154,6 +154,7 @@ section {
         img {
           color: rgb(255, 237, 224);
           margin-right: 8px;
+          fill: white ;
         }
         span {
           color: rgb(255, 237, 224);
