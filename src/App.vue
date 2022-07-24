@@ -5,7 +5,7 @@ import SectionContent from "./components/SectionContent.vue";
 </script>
 <template>
   <!-- Components -->
-  <HeaderBar msg="Welcome to Your Vue.js + TypeScript App" />
+  <HeaderBar />
   <SectionContent />
   <!-- Components -->
 </template>
@@ -18,7 +18,7 @@ import SectionContent from "./components/SectionContent.vue";
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  font-weight: bold;
+  font-weight: 700;
 }
 a {
   text-decoration: none;
