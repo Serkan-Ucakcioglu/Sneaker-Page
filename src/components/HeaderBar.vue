@@ -114,7 +114,6 @@ header {
       margin-left: 15px !important;
     }
   }
-
   .basket-user {
     width: 100%;
     height: 100px;
